@@ -1,0 +1,12 @@
+# Executáveis
+*.exe
+*.out
+*.app
+
+# Arquivos de objetos compilados
+*.o
+*.obj
+
+# Pastas de IDEs e Editores
+.vscode/
+.idea/
