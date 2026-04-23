@@ -1,3 +1,6 @@
+/* Escreva um algoritmo que leia um array A de n números inteiros e retorne a maior soma de 2 (dois) elementos
+consecutivos de A. */
+
 #include <iostream>
 using namespace std;
 
