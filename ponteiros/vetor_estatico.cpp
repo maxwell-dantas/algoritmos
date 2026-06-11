@@ -9,8 +9,6 @@ struct vector {
             capacity_ = 1000;
         }
 
-        ~vector() {}
-
         unsigned int size() { 
             return size_;
         }
