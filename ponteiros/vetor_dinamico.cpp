@@ -4,12 +4,12 @@ struct vector {
         unsigned int size_, capacity_;
 
         void increase_capacity() {
-            int *new_pointer = new int[capacity_ + 10];
+            capacity_ += 10;
+            int *new_pointer = new int[capacity_];
             int *old_pointer = data;            
             for (unsigned int i = 0; i < size_; i++) {
                 new_pointer[i] = data[i];
             }
-            capacity_+=10;
             data = new_pointer;
             delete[] old_pointer;
         }
@@ -38,7 +38,7 @@ struct vector {
         }
 
         bool insert_at(unsigned int index, int value) {
-            if (index >= size_) {return false;}
+            if (index > size_) {return false;}
             if (size_ == capacity_) {increase_capacity();}
             for (unsigned int i = size_; i > index ; i--) {
                 data[i] = data[i - 1];
@@ -64,7 +64,7 @@ struct vector {
             return data[index];
         }
 
-        void clear() { // ALTERAR?
+        void clear() {
             size_ = 0;
         }
 
