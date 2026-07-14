@@ -5,6 +5,7 @@
 const int SELECAO = 1;
 const int INSERCAO = 2;
 const int MERGE = 3;
+const int OTIMIZADO = 4;
 
 void print_usage() {
     std::cout << "Programa para ordenação de números ineiros.\n\n";
@@ -34,6 +35,9 @@ int define_metodo(int argc, char **argv) {
         } else if (argv[1][1] == 'i') {
             metodo = INSERCAO;
             std::cerr << "Método inserção usado para ordenação.\n";
+        } else if (argv[1][1] == 'o'){
+            metodo = OTIMIZADO;
+            std::cerr << "Método inserção OTIMIZADO usado para ordenação.\n";
         } else if (argv[1][1] == 'm') {
             metodo = MERGE;
             std::cerr << "Método merge-sort usado para ordenação.\n";
@@ -71,6 +75,9 @@ int main(int argc, char **argv) {
         break;
     case MERGE:
         merge_sort(a, n);
+        break;
+    case OTIMIZADO:
+        insercao_otimizada(a, n);
         break;
     }
     auto end = std::chrono::high_resolution_clock::now();
