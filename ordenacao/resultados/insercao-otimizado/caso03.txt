@@ -1,0 +1,40 @@
+Tamanho: 10000
+Método inserção OTIMIZADO usado para ordenação.
+10000 Tempo de ordenação: 69243 microsegundo(s)
+
+Tamanho: 20000
+Método inserção OTIMIZADO usado para ordenação.
+20000 Tempo de ordenação: 259787 microsegundo(s)
+
+Tamanho: 30000
+Método inserção OTIMIZADO usado para ordenação.
+30000 Tempo de ordenação: 623327 microsegundo(s)
+
+Tamanho: 40000
+Método inserção OTIMIZADO usado para ordenação.
+40000 Tempo de ordenação: 1034881 microsegundo(s)
+
+Tamanho: 50000
+Método inserção OTIMIZADO usado para ordenação.
+50000 Tempo de ordenação: 1678109 microsegundo(s)
+
+Tamanho: 60000
+Método inserção OTIMIZADO usado para ordenação.
+60000 Tempo de ordenação: 2442174 microsegundo(s)
+
+Tamanho: 70000
+Método inserção OTIMIZADO usado para ordenação.
+70000 Tempo de ordenação: 3243116 microsegundo(s)
+
+Tamanho: 80000
+Método inserção OTIMIZADO usado para ordenação.
+80000 Tempo de ordenação: 4360440 microsegundo(s)
+
+Tamanho: 90000
+Método inserção OTIMIZADO usado para ordenação.
+90000 Tempo de ordenação: 5522698 microsegundo(s)
+
+Tamanho: 100000
+Método inserção OTIMIZADO usado para ordenação.
+100000 Tempo de ordenação: 6827270 microsegundo(s)
+
